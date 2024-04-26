@@ -1,39 +1,72 @@
 body {
     display: grid;
-    height: auto;
+    height: 50vh;
 
 }
 
-title {
-    background-color: bisque;
+.header-content {
+    background: rgb(75, 71, 71);
+
+    padding: 3rem;
+    flex: 100px;
+}
+
+.box {
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+
 }
 
 .home {
-    background-color: black;
+    background-color: beige;
+
+    padding: 1rem;
 }
 
 .project {
-    background-color: black;
+    background-color: beige;
+
+    padding: 1rem;
 
 }
 
 .services {
-    background-color: black;
+    background-color: beige;
+
+    padding: 1rem;
 }
 
 .contact-us {
-    background-color: black;
+    background-color: beige;
+
+    padding: 1rem;
 }
 
 .main-content {
-    background-color: beige;
+    background-color: grey;
+    padding: 9 rem;
 
+    flex: 4 auto;
 }
 
 .aside-content {
-    background-color: blueviolet;
+    background-color: rgba(215, 203, 203, 0.835);
+    padding: 9rem;
+
+    flex: 1 auto;
+
 }
 
 footer {
-    background-color: blue;
+    background-color: rgb(33, 33, 120);
+    text-align: center;
+    padding: 5rem;
 }
