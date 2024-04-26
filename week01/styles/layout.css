@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    height: auto;
+
+}
+
+title {
+    background-color: bisque;
+}
+
+.home {
+    background-color: black;
+}
+
+.project {
+    background-color: black;
+
+}
+
+.services {
+    background-color: black;
+}
+
+.contact-us {
+    background-color: black;
+}
+
+.main-content {
+    background-color: beige;
+
+}
+
+.aside-content {
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: blue;
+}
