@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Martian+Mono:wght@100;200&display=swap");
+
+header {
+    background: orange;
+    display: 100px;
+    text-align: center;
+}
+
+main section {
+    font-family: monospace;
+    text-align: auto;
+}
+
+body {
+    display: grid;
+    height: 50vh;
+}
+
+body {
+    background-color: #a3ced6;
+    font-family: "Martian Mono";
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    background-color: beige;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    text-align: end;
+}
+
+nav a:hover {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.box {
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    background-color: rgb(142, 124, 117);
+    flex: flex;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.box2 {
+    background-color: beige;
+    display: flex;
+    padding: 12.8rem;
+    margin-left: 50%;
+    margin-top: -41%;
+
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    padding: 2rem;
+}
+
+.about-me {
+    flex: flex;
+    flex-wrap: wrap;
+}
+
+.about-me-title {
+    width: 40%;
+    background-color: orange;
+    text-align: center;
+}
+
+.about-me-description {
+    width: 25%;
+    margin-right: 6%;
+}
+
+.ecuador-descrip {
+    width: 27%;
+    margin-left: 16%;
+    margin-top: -12%;
+}
+
+.card-img1 {
+    object-fit: cover;
+    width: 15%;
+    margin-left: 25%;
+    margin-top: -13%;
+
+}
+
+.card-img2 {
+    margin-right: 40%;
+    width: 15%;
+}
+
+.web-dev {
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+}
+
+.web-dev-resources {
+    flex: flex;
+}
+
+.web-description {
+
+    background-color: beige;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+}
